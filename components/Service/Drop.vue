@@ -4,7 +4,7 @@
       v-for="service in services"
       class="border-n-1 m-4 sm:m-8 relative rounded-lg overflow-clip"
     >
-      <img :src="service.url" class="service-img" alt="" />
+      <img :src="service.url" class="service-img" :alt="service.title" />
       <div class="glass w-full p-6 grid place-content-center">
         <div class="text-style-1 text-center font-semibold">
           {{ service.title }}
