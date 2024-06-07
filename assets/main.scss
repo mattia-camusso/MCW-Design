@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-urban: "Urbanist", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  --cubic-bezier: cubic-bezier(0.8, 0.12, 0.05, 0.88);
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    /* background-color: #131520; */
+    background-color: #0e0c15;
+    color: #d5dad5;
+    @apply font-sans text-base;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    line-height: normal;
+    scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+    scroll-behavior: smooth;
+  }
+}
+
+.text-style-1 {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+}
+.text-style-2 {
+  font-size: clamp(0.9rem, 1.5vw, 1.5rem);
+}
+
+.text-style-3 {
+  font-size: clamp(1rem, 1.7vw, 1.8rem);
+}
+.text-style-4 {
+  font-size: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+.text-style-big {
+  font-size: clamp(2rem, 5.5vw, 6rem);
+  font-weight: 500;
+  @apply tracking-tight;
+}
+
+.text-style-bigger {
+  font-size: clamp(3rem, 7vw, 7vw);
+  @apply tracking-tight;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  @apply text-n-1;
+  @apply bg-color-5;
+}
+
+::selection {
+  @apply text-n-1;
+  @apply bg-color-5;
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
