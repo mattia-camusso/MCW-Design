@@ -15,6 +15,11 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          name: "description",
+          content:
+            "Sviluppo Siti Web e App Mobile Aosta, Valle d'Aosta, Torino, Canavese e Piemonte",
+        },
       ],
       link: [
         { rel: "icon", type: "image/svg", href: "_nuxt/assets/favicon.svg" },
