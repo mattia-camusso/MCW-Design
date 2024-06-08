@@ -13,9 +13,7 @@
       class="shape"
       tabindex="-1"
     >
-      <span class="tooltip-1 tooltip">{{
-        el.title.replace(/\s/g, "&nbsp;")
-      }}</span>
+      <h3 class="tooltip-1 tooltip">{{ el.title.replace(/\s/g, "&nbsp;") }}</h3>
     </a>
   </div>
 </template>

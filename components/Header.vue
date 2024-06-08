@@ -6,7 +6,7 @@ defineProps({
 
 <template>
   <nav
-    class="header backdrop"
+    class="header"
     :class="position ? [position, 'backdrop'] : 'sticky'"
   >
     <div class="flex justify-between items-center p-4 lg:p-8 xl:h-[10vh]">

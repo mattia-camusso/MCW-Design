@@ -1,9 +1,11 @@
 <template>
   <div class="scroller">
     <div class="tag-list scroller-inner">
-      <a v-for="el in elems" :href="el.url" class="scroll-item">{{
-        el.title.replace(/\s/g, "&nbsp;")
-      }}</a>
+      <a v-for="el in elems" :href="el.url" class="scroll-item">
+        <h3>
+          {{ el.title.replace(/\s/g, "&nbsp;") }}
+        </h3>
+      </a>
     </div>
   </div>
 </template>

@@ -4,6 +4,8 @@ import { useMainStore } from "../stores/myStore";
 definePageMeta({
   layout: "home",
 });
+
+await preloadComponents(["LandingHero", "LandingStory"]);
 </script>
 
 <template>

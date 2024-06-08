@@ -1,6 +1,6 @@
 <template>
-  <ServiceDrag class="collapse lg:visible"></ServiceDrag>
-  <ServiceDrop class="visible lg:collapse lg:hidden"></ServiceDrop>
+  <ServiceDrag class="collapse lg:visible hidden lg:block"></ServiceDrag>
+  <ServiceDrop class="visible lg:collapse lg:hidden" ></ServiceDrop>
 </template>
 
 <script setup>
