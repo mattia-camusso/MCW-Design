@@ -34,7 +34,7 @@
           <span class="stretch text-pretty text-style-big"></span>
           la tua Storia
         </p>
-        <p class="text-style-3 text-pretty backdrop-blur-md p-4 rounded-lg">
+        <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
           Il nostro focus è trasformare la tua visione in realtà
         </p>
       </div>
@@ -46,7 +46,7 @@
           <p class="text-center text-style-big">E realizzare qualcosa di più</p>
         </div>
         <div>
-          <p class="text-style-3 text-pretty backdrop-blur-md p-4 rounded-lg">
+          <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
             Ti aiutiamo ad aumentare la tua presenza online e la visibilità
             della tua attività
           </p>
@@ -56,7 +56,7 @@
     <div class="fullpage section">
       <div class="overlay place-items-center">
         <p class="hide4 text-style-big">Insieme.</p>
-        <p class="text-style-3 text-pretty backdrop-blur-md p-4 rounded-lg">
+        <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
           Lavoriamo a stretto contatto con i nostri clienti in tutte le fasi
           della lavorazione
         </p>

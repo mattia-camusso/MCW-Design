@@ -11,7 +11,8 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "MCW Design, Sviluppo Siti Web Valle d'Aosta e Torino",
+      title:
+        "MCW Design, Sviluppo Siti Web Valle d'Aosta, Torino, Canavese e Piemonte",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },

@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-[7vh] sm:pt-[10vh] xl:pt-[15vh] px-4 lg:px-8">
-    <h3 class="text-style-3 font-semibold text-n-3">Chi siamo</h3>
+  <div class="pt-[10vh] lg:pt-[15vh] px-4 lg:px-8">
+    <h3 class="text-style-3 font-semibold text-gray-400">Chi siamo</h3>
     <h2 class="text-style-big text-pretty">
       Benvenuti nella nostra agenzia web in Valle d'Aosta, dove realizziamo Siti
       Web, App Mobile, Web Design e molto altro...

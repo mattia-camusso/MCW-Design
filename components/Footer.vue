@@ -62,8 +62,9 @@
           </div>
         </div>
       </div>
+    <SmallFooter class="bg-color-1"></SmallFooter>
     </div>
-  </footer>
+    </footer>
 </template>
 
 <script lang="ts" setup>

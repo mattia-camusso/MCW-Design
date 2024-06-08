@@ -12,7 +12,7 @@ import MobileAnimation from "./MobileAnimation.vue";
         <span class="hero-text-highlight text-color-5">Business</span>
       </div>
       <h1 class="hero-subtext text-pretty mb-4 tall:mb-16">
-        Realizziamo Siti Web in Valle d'Aosta e Canavese.
+        Realizziamo Siti Web in Valle d'Aosta, Torino e Canavese.
       </h1>
     </div>
     <div class="hero-side collapse w-0 h-0 md:w-full md:h-full md:visible">
@@ -28,7 +28,7 @@ import MobileAnimation from "./MobileAnimation.vue";
 
 <style scoped>
 .hero-container {
-  height: 90dvh;
+  height: 100dvh;
   overflow-x: clip;
 }
 
