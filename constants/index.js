@@ -24,35 +24,35 @@ export const services = [
     title: "Web Design",
     subtitle:
       "Trasforma il tuo brand online con siti web personalizzati e interattivi.",
-    url: "../assets/web-design.jpg",
+    url: "/img/web-design.jpg",
   },
   {
     id: "web-app",
     title: "Sviluppo Web App",
     subtitle:
       "Semplifica il tuo business con applicazioni web moderne e intuitive.",
-    url: "../assets/web-app.jpg",
+    url: "/img/web-app.jpg",
   },
   {
     id: "mobile-app",
     title: "Sviluppo App Mobile",
     subtitle:
       "Raggiungi il tuo pubblico ovunque con app su misura per iOS e Android.",
-    url: "../assets/mobile-app.jpg",
+    url: "/img/mobile-app.jpg",
   },
   {
     id: "logo-design",
     title: "Logo Design",
     subtitle:
       "Stabilisci una brand identity duratura con un logo unico e riconoscibile per distinguerti dalla concorrenza.",
-    url: "../assets/logo-design.jpg",
+    url: "/img/logo-design.jpg",
   },
   {
     id: "ux-ui-design",
     title: "UX/UI Design",
     subtitle:
       "Migliora l'esperienza utente e il design dei i tuoi prodotti digitali, per un'immersione senza precedenti.",
-    url: "../assets/ux-ui.jpg",
+    url: "/img/ux-ui.jpg",
   },
 ];
 

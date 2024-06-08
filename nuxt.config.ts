@@ -23,7 +23,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [
-        { rel: "icon", type: "image/svg", href: "../assets/favicon.svg" },
+        { rel: "icon", type: "image/svg", href: "../assets/favicon.ico" },
       ],
     },
   },
