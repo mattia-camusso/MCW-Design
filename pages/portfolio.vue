@@ -21,6 +21,7 @@
       </div>
       <img
         :src="el.url"
+        alt="Sito Web Alessia Matti Wedding Planner Valle d'Aosta"
         class="img lg:w-3/5 max-h-[85vh] self-end mt-12 ml-4 lg:mt-[10vh]"
       />
     </div>
@@ -40,21 +41,21 @@ const photos = [
     subtext:
       "Il sito web che abbiamo realizzato per la nostra cliente è un perfetto equilibrio tra eleganza e funzionalità. Il design è stato ispirato dalla raffinatezza e dal romanticismo del mondo dei matrimoni. Utilizzando una palette di colori delicati e sofisticati, immagini di alta qualità e una tipografia elegante, abbiamo creato un layout che cattura l'essenza delle celebrazioni di nozze e invita i visitatori a esplorare i servizi offerti.",
     alt: "Alessia Matti Portfolio Image",
-    url: "_nuxt/assets/portfolio/alematti1.png",
+    url: "_nuxt/assets/alematti1.png",
   },
   {
     text: "Funzionalità e User Experience",
     subtext:
       "Il sito è stato progettato con una navigazione semplice e chiara. Le sezioni principali sono facilmente accessibili dal menu principale, permettendo ai visitatori di trovare rapidamente le informazioni desiderate. Inoltre, il sito è completamente responsive, assicurando una visualizzazione impeccabile su tutti i dispositivi.",
     alt: "Alessia Matti Portfolio Image",
-    url: "_nuxt/assets/portfolio/alematti2.png",
+    url: "_nuxt/assets/alematti2.png",
   },
   {
     text: "Design ed Estetica",
     subtext:
       "Il design del sito è stato sviluppato per riflettere l'eleganza e la magia delle location montane. Utilizzando una palette di colori naturali e sofisticati, immagini ad alta risoluzione di paesaggi mozzafiato e una tipografia elegante, il sito cattura la bellezza serena e maestosa delle nozze in montagna. Ogni elemento visivo è stato scelto per evocare un senso di tranquillità e raffinatezza",
     alt: "Alessia Matti Portfolio Image",
-    url: "_nuxt/assets/portfolio/alematti3.png",
+    url: "_nuxt/assets/alematti3.png",
   },
 ];
 </script>
@@ -67,7 +68,7 @@ const photos = [
   display: grid;
   justify-items: center;
   place-content: center;
-  background-image: url("../assets/portfolio/AleFront.png");
+  background-image: url("../assets/AleFront.png");
 
   @supports (animation-timeline: view()) {
     background-position: 50% 100%;
