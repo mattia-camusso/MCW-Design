@@ -19,7 +19,7 @@ import MobileAnimation from "./MobileAnimation.vue";
       <LandingAnimation></LandingAnimation>
     </div>
     <div
-      class="hero-side hero-bg md:collapse py-[7.5vh] tall:py-[10vh] md:w-0 md:h-0 w-full h-50 visible"
+      class="hero-side hero-bg md:collapse md:w-0 md:h-0 w-full h-[50vh] visible"
     >
       <MobileAnimation></MobileAnimation>
     </div>
