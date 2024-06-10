@@ -62,7 +62,7 @@ const photos = [
 
 <style scoped>
 .front {
-  height: 100dvh;
+  height: 100vh;
   overflow: clip;
   background-size: cover;
   display: grid;

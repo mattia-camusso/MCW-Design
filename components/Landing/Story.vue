@@ -112,7 +112,7 @@ onMounted(() => {
 
 <style scoped>
 .fullpage {
-  height: 100dvh;
+  height: 100vh;
   width: 100vw;
   background-size: cover;
   overflow: clip;

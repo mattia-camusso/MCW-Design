@@ -122,7 +122,7 @@ const handleLeftClick = () => {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  height: 90dvh;
+  height: 90vh;
   margin: 0px;
 }
 

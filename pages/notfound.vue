@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="flex h-[90dvh] flex-col overflow-clip items-center justify-center"
-  >
+  <div class="flex h-[90vh] flex-col overflow-clip items-center justify-center">
     <div class="overlay-404 z-2 grid place-content-center">
       <h3 title="404" class="text-404 place-content-center">404</h3>
     </div>

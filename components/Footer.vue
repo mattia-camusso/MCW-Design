@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer-container h-full md:h-[100dvh] relative">
+  <footer class="footer-container h-full md:h-[100vh] relative">
     <div class="footer-overlay md:grid md:grid-rows-5 absolute">
       <div class="flex-col px-4 md:p-8 pt-[5vh] md:pt-[15vh] md:row-span-2">
         <p class="text-style-big font-medium">Hai un idea?</p>
@@ -62,9 +62,9 @@
           </div>
         </div>
       </div>
-    <SmallFooter class="bg-color-1"></SmallFooter>
+      <SmallFooter class="bg-color-1"></SmallFooter>
     </div>
-    </footer>
+  </footer>
 </template>
 
 <script lang="ts" setup>

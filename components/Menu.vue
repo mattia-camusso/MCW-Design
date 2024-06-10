@@ -37,7 +37,7 @@ const store = useMainStore();
 
 <style lang="scss" scoped>
 #menu {
-  height: 100dvh;
+  height: 100vh;
   position: fixed;
   z-index: 40;
   top: 0;

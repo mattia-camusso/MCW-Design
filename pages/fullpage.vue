@@ -50,7 +50,7 @@ onMounted(() => {
 
 <style scoped>
 .scrollable {
-  height: 100dvh;
+  height: 100vh;
   width: 100vw;
   overflow: hidden;
 }

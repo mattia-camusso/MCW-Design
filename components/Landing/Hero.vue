@@ -28,7 +28,7 @@ import MobileAnimation from "./MobileAnimation.vue";
 
 <style scoped>
 .hero-container {
-  height: 100dvh;
+  height: 100vh;
   overflow-x: clip;
 }
 
