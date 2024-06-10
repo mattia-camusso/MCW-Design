@@ -198,7 +198,7 @@ onMounted(() => {
 .hide4 {
   opacity: 0;
   filter: blur(5px);
-  letter-spacing: clamp(4rem, 8vw, 8rem);
+  letter-spacing: clamp(2rem, 4vw, 4rem);
   transition: all 1000ms var(--cubic-bezier);
 }
 
