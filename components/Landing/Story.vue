@@ -6,7 +6,7 @@
           Inizia tutto con un'idea...
         </p>
         <p
-          class="text-style-3 lg:w-[33vw] text-pretty backdrop-blur-md p-4 rounded-lg"
+          class="text-style-3 lg:w-[33vw] text-pretty backdrop-blur-md p-4 rounded-xl"
         >
           Partiamo dalla tua visione per progettare siti web e app su misura per
           le tue esigenze specifiche
@@ -20,7 +20,9 @@
           <span class="text0">vita</span> a qualcosa di nuovo
         </p>
         <div>
-          <p class="text-style-3 text-balance backdrop-blur-md p-4 rounded-lg">
+          <p
+            class="text-style-3 text-balance backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
+          >
             Lavoriamo con le tecnologie più moderne per realizzare prodotti
             sempre al passo coi tempi
           </p>
@@ -34,7 +36,9 @@
           <span class="stretch text-pretty text-style-big"></span>
           la tua Storia
         </p>
-        <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
+        <p
+          class="text-style-3 text-center backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
+        >
           Il nostro focus è trasformare la tua visione in realtà
         </p>
       </div>
@@ -46,7 +50,9 @@
           <p class="text-center text-style-big">E realizzare qualcosa di più</p>
         </div>
         <div>
-          <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
+          <p
+            class="text-style-3 text-center backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
+          >
             Ti aiutiamo ad aumentare la tua presenza online e la visibilità
             della tua attività
           </p>
@@ -56,7 +62,9 @@
     <div class="fullpage section">
       <div class="overlay place-items-center">
         <p class="hide4 text-style-big">Insieme.</p>
-        <p class="text-style-3 text-center backdrop-blur-md p-4 rounded-lg">
+        <p
+          class="text-style-3 text-center backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
+        >
           Lavoriamo a stretto contatto con i nostri clienti in tutte le fasi
           della lavorazione
         </p>
