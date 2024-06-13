@@ -11,7 +11,10 @@
       v-for="(el, i) in photos"
       class="flex flex-col lg:items-top lg:flex-row"
     >
-      <div :class="`box${i}`" class="box flex-1 mt-36 mx-4 lg:ml-8 xl:mr-24">
+      <div
+        :class="`box${i}`"
+        class="box flex-1 mt-36 xl:mt-[15vh] mx-4 lg:ml-8 xl:mr-24"
+      >
         <h4 class="text-style-1 text-balance font-semibold">
           {{ el.text }}
         </h4>
