@@ -7,10 +7,10 @@
     </h2>
     <img
       src="../assets/about/agency.jpg"
-      class="w-full md:w-2/3 my-8 lg:my-16 ml-auto"
+      class="w-full md:w-2/3 my-8 lg:my-16 ml-auto rounded-lg"
       alt="web-agency-valle-aosta"
     />
-    <p class="text-style-3 mt-4">
+    <p class="text-style-3 mt-4 leading-relaxed">
       Il vostro punto di riferimento per tutte le esigenze digitali, offriamo
       una vasta gamma di servizi che includono lo sviluppo siti internet,
       realizzazione siti web e-commerce, consulenze SEO (ottimizzazione per del
@@ -20,10 +20,10 @@
     </p>
     <img
       src="../assets/about/agency2.jpg"
-      class="w-full my-8 lg:my-16 mr-auto aspect-[16/6]"
+      class="w-full my-8 lg:my-16 mr-auto aspect-[16/6] rounded-lg"
       alt="web-agency-valle-aosta"
     />
-    <p class="text-style-3 mt-4 mb-8">
+    <p class="text-style-3 mt-4 mb-8 leading-relaxed">
       Il nostro team di esperti web designer collabora strettamente con voi per
       comprendere a fondo le vostre esigenze professionali, trasformandole in
       progetti concreti, efficaci e accattivanti. Grazie alla nostra lunga
