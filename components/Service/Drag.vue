@@ -162,6 +162,10 @@ onMounted(() => {
 <style scoped>
 .content {
   height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
   width: 100vw;
 }
 
@@ -212,7 +216,7 @@ onMounted(() => {
 .contento {
   position: relative;
   margin: auto;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .contento .content-overlay {

@@ -5,11 +5,10 @@ defineProps({
 </script>
 
 <template>
-  <nav
-    class="header"
-    :class="position ? [position, 'backdrop'] : 'sticky'"
-  >
-    <div class="flex justify-between items-center p-4 lg:p-8 xl:h-[10vh]">
+  <nav class="header" :class="position ? [position, 'backdrop'] : 'sticky'">
+    <div
+      class="flex justify-between items-center p-4 lg:p-8 2xl:py-4vh 2xl:px-4vw"
+    >
       <a href="/">
         <img
           class="xl:h-12 lg:h-10 md:h-6 h-6"
@@ -35,7 +34,7 @@ defineProps({
 }
 
 .header {
-  width: 100%;
+  width: 100vw;
   z-index: 99;
 }
 

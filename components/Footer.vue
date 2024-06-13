@@ -12,7 +12,7 @@
         <div class="sm:py-4 md:p-4 lg:p-8 hidden sm:flex flex-col">
           <a href="/" class="sm:pb-8">
             <img
-              class="xl:h-11 lg:h-9 md:h-7 h-5"
+              class="xl:h-10 lg:h-8 md:h-6 h-4"
               src="../assets/MCW.svg"
               alt="MCW Design"
             />

@@ -7,11 +7,11 @@ import MobileAnimation from "./MobileAnimation.vue";
     class="flex hero-container flex-col lg:flex-row lg:items-center mx-4 lg:mx-8 overflow-x-clip"
   >
     <div>
-      <div class="hero-text text-n-1 tall:mt-24 lg:mt-0 mb-8 mt-8">
+      <div class="hero-text text-n-1 lg:mt-0 mb-8 mt-8">
         Design Digitale per il tuo
         <span class="hero-text-highlight text-color-5">Business</span>
       </div>
-      <h1 class="hero-subtext text-pretty mb-4 tall:mb-16">
+      <h1 class="hero-subtext text-pretty mb-4">
         Realizziamo Siti Web in Valle d'Aosta, Torino e Canavese.
       </h1>
     </div>

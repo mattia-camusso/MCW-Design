@@ -61,9 +61,14 @@ const photos = [
 </script>
 
 <style scoped>
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
 .front {
   height: 100vh;
-  overflow: clip;
+  overflow: hidden;
   background-size: cover;
   display: grid;
   justify-items: center;
