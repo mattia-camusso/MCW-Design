@@ -16,6 +16,10 @@ export default defineNuxtConfig({
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         {
+          name: "google-site-verification",
+          content: "ySOnsDQMAY9k-SLMdO-M4lTIWUjMBaso6blE_hCf4qk",
+        },
+        {
           name: "description",
           content:
             "Sviluppo Siti Web e App Mobile Aosta, Valle d'Aosta, Torino e Canavese",
