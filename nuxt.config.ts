@@ -22,9 +22,7 @@ export default defineNuxtConfig({
             "Sviluppo Siti Web e App Mobile Aosta, Valle d'Aosta, Torino, Canavese e Piemonte",
         },
       ],
-      link: [
-        { rel: "icon", type: "image/svg", href: "/favicon.ico" },
-      ],
+      link: [{ rel: "icon", type: "image/svg", href: "/favicon.ico" }],
     },
   },
   alias: {
@@ -41,4 +39,5 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  ssr: true,
 });
