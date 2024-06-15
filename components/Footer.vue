@@ -9,15 +9,11 @@
       <div
         class="md:bg-color-1 p-4 md:row-span-2 flex flex-wrap gap-12 md:flex-row justify-between lg:justify-around"
       >
-        <div class="sm:py-4 md:p-4 lg:p-8 hidden sm:flex flex-col">
+        <div class="sm:py-4 md:p-4 lg:p-8 sh:py-4 hidden sm:flex flex-col">
           <a href="/" class="sm:pb-8">
-            <img
-              class="xl:h-10 lg:h-8 md:h-6 h-4"
-              src="../assets/MCW.svg"
-              alt="MCW Design"
-            />
+            <img class="logo-style" src="../assets/MCW.svg" alt="MCW Design" />
           </a>
-          <div class="flex flex-col md:gap-12 sm:gap-8 gap-4">
+          <div class="flex flex-col md:gap-12 sm:gap-8 gap-4 min-h-40">
             <a
               href="/services"
               class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
@@ -35,7 +31,7 @@
             >
           </div>
         </div>
-        <div class="sm:py-4 md:p-4 lg:p-8 flex flex-col">
+        <div class="sm:py-4 md:p-4 lg:p-8 sh:py-4 flex flex-col">
           <h5 class="text-style-1 pb-4 sm:pb-8 font-semibold hidden md:block">
             Contatti
           </h5>
@@ -48,7 +44,7 @@
             >
           </div>
         </div>
-        <div class="sm:py-4 md:p-4 lg:p-8 flex flex-col">
+        <div class="sm:py-4 md:p-4 lg:p-8 sh:py-4 flex flex-col">
           <h5 class="text-style-1 pb-4 sm:pb-8 font-semibold hidden md:block">
             Social
           </h5>
@@ -62,9 +58,9 @@
           </div>
         </div>
       </div>
-      <SmallFooter class="bg-color-1"></SmallFooter>
     </div>
   </footer>
+  <SmallFooter class="bg-color-1 border-color-1"></SmallFooter>
 </template>
 
 <script lang="ts" setup>
@@ -86,6 +82,10 @@ import { contacts } from "../constants";
     rgba(19, 21, 32, 0.7) 0%,
     rgba(19, 21, 32, 1) 100%
   );
+}
+
+.logo-style {
+  height: clamp(1.5rem, 3vw, 4.5rem);
 }
 
 @media screen and (max-width: 1280px) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex items-center justify-around pt-8 pb-8">
+  <div class="w-full flex items-center justify-around pt-12 pb-8">
     <p class="text-style-2">
       MCW Design - Cookieless Website -
       <a class="hover:text-color-5 transition-all focus:text-color-5" href="/"

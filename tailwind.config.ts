@@ -45,7 +45,7 @@ export default {
         },
       },
       screens: {
-        tall: { raw: "(min-height: 740px)" },
+        sh: { raw: "(max-height: 740px)" },
         // => @media (min-height: 800px) { ... }
       },
       fontFamily: {

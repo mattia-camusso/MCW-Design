@@ -53,7 +53,7 @@
 }
 
 .text-style-bigger {
-  font-size: clamp(3rem, 7vw, 7vw);
+  font-size: clamp(3rem, 7vw, 7rem);
   @apply tracking-tight;
 }
 
