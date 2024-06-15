@@ -60,7 +60,7 @@ export const contacts = [
   {
     name: "Email",
     description: "mattia.camusso@gmail.com",
-    link: "mailto:mattia.camusso@gmail.com?subject=Subject",
+    link: "mailto:mattia.camusso@gmail.com?subject=Consulenza MCW Design",
     target: false,
     size: 72,
   },
@@ -76,7 +76,7 @@ export const socials = [
   {
     name: "Linkedin",
     description: "mattia.camusso@gmail.com",
-    link: "mailto:mattia.camusso@gmail.com?subject=Subject",
+    link: "mailto:mattia.camusso@gmail.com?subject=Consulenza MCW Design",
     target: false,
     size: 72,
   },

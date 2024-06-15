@@ -39,6 +39,7 @@
             <a
               v-for="contact in contacts"
               :href="contact.link"
+              target="_blank"
               class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
               >{{ contact.description }}</a
             >
@@ -52,6 +53,7 @@
             <a
               v-for="social in socials"
               :href="social.link"
+              target="_blank"
               class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
               >{{ social.name }}</a
             >
