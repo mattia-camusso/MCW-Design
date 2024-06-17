@@ -10,11 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/seo": "^2.0.0-rc.10",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/components": "^10.9.0",
     "@vueuse/core": "^10.9.0",
     "lock-body-scroll": "^1.0.0",
     "nuxt": "^3.10.3",
+    "nuxt-simple-robots": "^4.0.0-rc.17",
     "pinia": "^2.1.7",
     "vue": "^3.4.19",
     "vue-router": "^4.3.0"

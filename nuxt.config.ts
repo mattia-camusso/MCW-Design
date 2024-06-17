@@ -9,6 +9,16 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+  site: {
+    url: "https://mcwdesign.it",
+    name: "MCW Design",
+    description:
+      "Sviluppo Siti Web e App Mobile Aosta, Valle d'Aosta, Torino e Canavese",
+    defaultLocale: "it", // not needed if you have @nuxtjs/i18n installed
+  },
+  seo: {
+    redirectToCanonicalSiteUrl: true,
+  },
   app: {
     head: {
       title: "MCW Design, Sviluppo Siti Web Valle d'Aosta, Torino e Canavese",
@@ -31,7 +41,12 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@pinia/nuxt", "@hypernym/nuxt-anime"],
+  modules: [
+    "@pinia/nuxt",
+    "@hypernym/nuxt-anime",
+    "nuxt-simple-robots",
+    "@nuxtjs/seo",
+  ],
   /*   ui: {
     global: true,
   }, */
