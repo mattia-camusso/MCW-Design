@@ -47,7 +47,7 @@
         <img class="image" :src="service.url" draggable="false" />
         <div class="content-overlay"></div>
         <div class="content-details fadeIn-right">
-          <h3 class="text-style-1 font-medium mb-8">{{ service.title }}</h3>
+          <h2 class="text-style-1 font-medium mb-8">{{ service.title }}</h2>
           <p class="text-style-2 text-pretty mb-8">{{ service.subtitle }}</p>
         </div>
       </div>
