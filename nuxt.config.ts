@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     defaultLocale: "it", // not needed if you have @nuxtjs/i18n installed
   },
   seo: {
-    redirectToCanonicalSiteUrl: true,
+    redirectToCanonicalSiteUrl: false,
   },
   app: {
     head: {
