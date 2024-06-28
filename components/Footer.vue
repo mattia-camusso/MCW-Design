@@ -1,7 +1,9 @@
 <template>
   <footer class="footer-container h-full md:h-[100vh] relative">
     <div class="footer-overlay md:grid md:grid-rows-5 absolute">
-      <div class="flex-col px-4 md:p-8 pt-[5vh] md:pt-[15vh] md:row-span-2">
+      <div
+        class="flex-col px-4 md:p-8 pt-[5vh] md:pt-[15vh] lg:pt-[25vh] md:row-span-2"
+      >
         <p class="text-style-big font-medium">Hai un idea?</p>
         <p class="text-style-bigger font-bold text-color-5">Contattaci</p>
       </div>
@@ -16,17 +18,17 @@
           <div class="flex flex-col md:gap-12 sm:gap-8 gap-4 min-h-40">
             <a
               href="/services"
-              class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
+              class="hover:text-color-5 transition-all focus:text-color-5 text-style-2"
               >Servizi</a
             >
             <a
               href="/portfolio"
-              class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
+              class="hover:text-color-5 transition-all focus:text-color-5 text-style-2"
               >Progetti</a
             >
             <a
               href="/about"
-              class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
+              class="hover:text-color-5 transition-all focus:text-color-5 text-style-2"
               >About</a
             >
           </div>
@@ -40,7 +42,7 @@
               v-for="contact in contacts"
               :href="contact.link"
               target="_blank"
-              class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
+              class="hover:text-color-5 transition-all focus:text-color-5 text-style-2"
               >{{ contact.description }}</a
             >
           </div>
@@ -54,7 +56,7 @@
               v-for="social in socials"
               :href="social.link"
               target="_blank"
-              class="hover:text-color-5 transition-all focus:text-color-5 text-style-3"
+              class="hover:text-color-5 transition-all focus:text-color-5 text-style-2"
               >{{ social.name }}</a
             >
           </div>

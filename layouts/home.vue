@@ -17,7 +17,7 @@ useHead({
 });
 </script>
 <style scoped>
-.header {
+.header-element {
   --_animationStartsAfter: 700px;
   --_animationRange: 250px;
 
