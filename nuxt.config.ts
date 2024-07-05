@@ -46,6 +46,7 @@ export default defineNuxtConfig({
     "@hypernym/nuxt-anime",
     "nuxt-simple-robots",
     "@nuxtjs/seo",
+    "@nuxtjs/sitemap"
   ],
   /*   ui: {
     global: true,
