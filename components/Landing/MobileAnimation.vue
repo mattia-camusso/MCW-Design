@@ -1,5 +1,28 @@
 <template>
-  <div class="scroller">
+  <section class="scroller">
+    <div class="marquee marquee--fit-content">
+      <ul class="marquee__content">
+        <li v-for="el in elems">
+          <a :href="el.url">
+            <h2 class="text-style-3 font-medium">
+              {{ el.title }}
+            </h2>
+          </a>
+        </li>
+      </ul>
+
+      <ul aria-hidden="true" class="marquee__content">
+        <li v-for="el in elems">
+          <a :href="el.url">
+            <h2 class="text-style-3 font-medium">
+              {{ el.title }}
+            </h2>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!--   <div class="scroller">
     <div class="tag-list scroller-inner">
       <a v-for="el in elems" :href="el.url" class="scroll-item">
         <h2>
@@ -7,7 +30,7 @@
         </h2>
       </a>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script lang="ts" setup>
@@ -49,36 +72,67 @@ const addAnimation = () => {
   );
 }
 
-@keyframes inner-scroll {
-  to {
-    transform: translate(calc(-50% - 0.5rem));
-  }
-}
-@-webkit-keyframes inner-scroll {
-  to {
-    transform: translate(calc(-50% - 0.5rem));
-  }
-}
-
-.scroller-inner {
-  padding-block: 2rem;
-  flex-wrap: wrap;
+/* Marquee styles */
+.marquee {
+  --gap: 1rem;
+  position: relative;
   display: flex;
-  gap: 1rem;
-  width: max-content;
-  flex-wrap: nowrap !important;
-  animation: inner-scroll 20s linear infinite;
-  -webkit-animation: inner-scroll 20s linear infinite;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
 }
 
-.scroll-item {
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: -1%;
-  line-height: 1.2;
-  text-align: center;
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  animation: scroll 15s linear infinite;
+  -webkit-animation: scroll 15s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+@-webkit-keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+/* Pause animation when reduced-motion is set */
+@media (prefers-reduced-motion: reduce) {
+  .marquee__content {
+    animation-play-state: paused !important;
+  }
+}
+
+/* Pause on hover */
+.marquee:hover .marquee__content {
+  animation-play-state: paused;
+}
+
+/* Attempt to size parent based on content. Keep in mind that the parent width is equal to both content containers that stretch to fill the parent. */
+.marquee--fit-content {
+  max-width: fit-content;
+}
+
+/* Other page demo styles */
+.marquee__content > * {
+  flex: 0 0 auto;
+  @apply bg-n-1;
   @apply bg-color-4;
+  margin: 2px;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  text-align: center;
 }
 </style>
