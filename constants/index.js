@@ -59,18 +59,18 @@ export const services = [
 export const contacts = [
   {
     name: "Email",
-    description: "mattia.camusso@gmail.com",
-    link: "mailto:mattia.camusso@gmail.com?subject=Consulenza MCW Design",
+    description: "mcwdesignagency@gmail.com",
+    link: "mailto:mcwdesignagency@gmail.com?subject=Consulenza MCW Design",
     target: false,
     size: 72,
   },
-  {
+  /*   {
     name: "Whatsapp",
     description: "+39 333 386 00 27",
     link: "https://wa.me/393333860027",
     target: false,
     size: 72,
-  },
+  }, */
 ];
 export const socials = [
   {
