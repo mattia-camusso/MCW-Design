@@ -1,5 +1,5 @@
 <template>
-  <div class="fullpage-container overflow-x-clip">
+  <!--  <div class="fullpage-container overflow-x-clip">
     <div class="fullpage section">
       <div class="overlay">
         <p class="hide0 fit lg:w-[60vw] text-pretty text-style-big">
@@ -43,7 +43,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup>
