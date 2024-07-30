@@ -43,38 +43,11 @@
         </p>
       </div>
     </div>
-    <div class="fullpage section">
-      <div class="overlay place-items-center">
-        <div class="hide3 flex flex-col-reverse items-center">
-          <p class="text1 py-8">Grande</p>
-          <p class="text-center text-style-big">E realizzare qualcosa di più</p>
-        </div>
-        <div>
-          <p
-            class="text-style-3 text-center backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
-          >
-            Ti aiutiamo ad aumentare la tua presenza online e la visibilità
-            della tua attività
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="fullpage section">
-      <div class="overlay place-items-center">
-        <p class="hide4 text-style-big">Insieme.</p>
-        <p
-          class="text-style-3 text-center backdrop-blur-md max-w-[75vw] p-4 rounded-xl"
-        >
-          Lavoriamo a stretto contatto con i nostri clienti in tutte le fasi
-          della lavorazione
-        </p>
-      </div>
-    </div>
   </div>
 </template>
 
 <script setup>
-onMounted(() => {
+/* onMounted(() => {
   let options = {
     rootMargin: "0px",
     threshold: 0.5,
@@ -115,7 +88,7 @@ onMounted(() => {
   hiddenElements.push(document.querySelector(".hide3"));
   hiddenElements.push(document.querySelector(".hide4"));
   hiddenElements.forEach((element) => observer.observe(element));
-});
+}); */
 </script>
 
 <style scoped>

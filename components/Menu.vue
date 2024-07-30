@@ -44,7 +44,7 @@ const store = useMainStore();
   left: 0;
 
   margin: 0;
-  @apply bg-n-8;
+  @apply bg-color-3;
   display: flex;
   align-items: center;
   overflow: clip;
@@ -53,8 +53,8 @@ const store = useMainStore();
 }
 
 #menu-items {
-  margin-top: 6rem;
-  margin-left: clamp(4rem, 20vw, 48rem);
+  margin: auto;
+  margin-top: 10rem;
   z-index: 2;
 }
 

@@ -4,14 +4,14 @@
   >
     <div></div>
     <div
-      class="flex xl:items-baseline items-center xl:justify-center gap-8 flex-col xl:flex-row"
+      class="flex xl:items-baseline items-center xl:justify-center md:gap-8 flex-col xl:flex-row"
     >
       <p class="text-style-big font-medium">Hai un idea?</p>
       <p class="text-style-bigger font-bold text-color-5">Contattaci</p>
     </div>
 
     <div
-      class="gradient-footer flex flex-wrap flex-col gap-16 justify-center items-center pb-0 pt-16"
+      class="gradient-footer flex flex-wrap flex-col gap-16 justify-center items-center pb-0 md:pt-16"
     >
       <div class="mx-auto">
         <img
