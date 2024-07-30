@@ -54,7 +54,6 @@ import MobileAnimation from "./MobileAnimation.vue";
 
 .hero-subtext {
   font-size: clamp(1.3rem, 2.2vw, 5rem);
-  font-weight: 500;
   letter-spacing: -1%;
   line-height: 1.2;
 }
