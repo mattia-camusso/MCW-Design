@@ -28,21 +28,19 @@ useHead({
     100vh + var(--_animationStartsAfter) + var(--_animationRange)
   );
 
-  top: -5rem;
+  top: -10rem;
 }
 
 @keyframes stickyNav {
   100% {
     top: 0;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--color-overlay);
   }
 }
 @-webkit-keyframes stickyNav {
   100% {
     top: 0;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--color-overlay);
   }
 }
 </style>
