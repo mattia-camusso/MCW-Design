@@ -1,42 +1,42 @@
 <template>
-  <div class="pb-[15vh]">
+  <div class="px-4 lg:px-8 md:pb-[15vh] pb-[10vh]">
 
-    <div class="flex justify-center pb-[15vh]">
+    <div class="flex justify-center md:pb-[15vh] pb-[10vh]">
       
-      <h2 class="px-auto text-style-bigger w-1/2 font-semibold">
+      <h2 class="text-style-bigger text-center text-pretty md:w-1/2 font-semibold">
         Inizia con noi il Tuo Viaggio Verso il Futuro
       </h2>
     </div>
-    <div class="px-4 lg:px-8">
-      <div class="flex justify-evenly">
-        <di class="flex flex-col gap-6 w-1/4">
-          <h3 class="text-style-4 font-bold text-color-5">Web e App</h3>
-          <p class="text-style-2 font-semibold">
+    <div class>
+      <div class="flex flex-col md:flex-row md:justify-evenly gap-6">
+        <di class="flex flex-col md:gap-6 gap-2 md:w-1/4">
+          <h3 class="text-style-1 font-bold text-color-5">Web e App</h3>
+          <p class="text-style-2 md:font-semibold font-bold">
             Di addio a siti web fatti con lo stampino.
           </p>
-          <p class="text-xl pt-4 text-pretty leading-relaxed">
+          <p class="lg:text-xl md:text-lg text-sm pt-2 md:pt-4 text-pretty leading-relaxed">
           Realizziamo soluzioni su misura per le tue esigenze specifiche con
           un'occhio di riguardo per un design unico e innovativo.
         </p>
       </di justify-betweenv>
-      <di class="flex flex-col gap-6 w-1/4">
-        <h3 class="text-style-4 font-bold text-color-5">SEO e Positioning</h3>
-        <p class="text-style-2 font-semibold">
+      <di class="flex flex-col md:gap-6 gap-2 md:w-1/4">
+        <h3 class="text-style-1 font-bold text-color-5">SEO e Positioning</h3>
+        <p class="text-style-2 md:font-semibold font-bold">
           Smetti di preoccuparti della visibilità del tuo sito.
         </p>
-        <p class="text-xl pt-4 text-pretty leading-relaxed">
+        <p class="lg:text-xl md:text-lg text-sm pt-2 md:pt-4 text-pretty leading-relaxed">
           Affidati alla nostra esperienza nel posizionarti in cima ai risultati
           dei principali motori di ricerca.
         </p>
       </di justify-betweenv>
-      <div class="flex flex-col gap-6 w-1/4">
-        <h3 class="text-style-4 font-bold text-color-5">
+      <div class="flex flex-col md:gap-6 gap-2 md:w-1/4">
+        <h3 class="text-style-1 font-bold text-color-5">
           Branding e Logo Design
         </h3>
-        <p class="text-style-2 font-semibold">
+        <p class="text-style-2 md:font-semibold font-bold">
           Un'identità visiva forte è essenziale per il successo.
         </p>
-        <p class="text-xl pt-4 text-pretty leading-relaxed">
+        <p class="lg:text-xl md:text-lg text-sm pt-2 md:pt-4 text-pretty leading-relaxed">
           Mettiamo il tuo brand al centro di tutto. Creiamo un'identità visiva
           memorabile per distinguerti dalla concorrenza.
         </p>

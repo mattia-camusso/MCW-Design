@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="footer-container h-[60vh] sm:h-[75vh] md:h-[100vh] flex flex-col justify-between"
+    class="footer-container h-[65vh] sm:h-[80vh] md:h-[100vh] flex flex-col justify-between"
   >
     <div></div>
     <div
@@ -56,8 +56,8 @@ import { contacts } from "../constants";
 }
 
 @media screen and (max-width: 640px) {
-  .footer-container {
+  /* .footer-container {
     background-image: none;
-  }
+  } */
 }
 </style>
