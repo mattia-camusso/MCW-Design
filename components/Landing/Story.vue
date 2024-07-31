@@ -1,4 +1,51 @@
 <template>
+  <div class="pb-[15vh]">
+
+    <div class="flex justify-center pb-[15vh]">
+      
+      <h2 class="px-auto text-style-bigger w-1/2 font-semibold">
+        Inizia con noi il Tuo Viaggio Verso il Futuro
+      </h2>
+    </div>
+    <div class="px-4 lg:px-8">
+      <div class="flex justify-evenly">
+        <di class="flex flex-col gap-6 w-1/4">
+          <h3 class="text-style-4 font-bold text-color-5">Web e App</h3>
+          <p class="text-style-2 font-semibold">
+            Di addio a siti web fatti con lo stampino.
+          </p>
+          <p class="text-xl pt-4 text-pretty leading-relaxed">
+          Realizziamo soluzioni su misura per le tue esigenze specifiche con
+          un'occhio di riguardo per un design unico e innovativo.
+        </p>
+      </di justify-betweenv>
+      <di class="flex flex-col gap-6 w-1/4">
+        <h3 class="text-style-4 font-bold text-color-5">SEO e Positioning</h3>
+        <p class="text-style-2 font-semibold">
+          Smetti di preoccuparti della visibilità del tuo sito.
+        </p>
+        <p class="text-xl pt-4 text-pretty leading-relaxed">
+          Affidati alla nostra esperienza nel posizionarti in cima ai risultati
+          dei principali motori di ricerca.
+        </p>
+      </di justify-betweenv>
+      <div class="flex flex-col gap-6 w-1/4">
+        <h3 class="text-style-4 font-bold text-color-5">
+          Branding e Logo Design
+        </h3>
+        <p class="text-style-2 font-semibold">
+          Un'identità visiva forte è essenziale per il successo.
+        </p>
+        <p class="text-xl pt-4 text-pretty leading-relaxed">
+          Mettiamo il tuo brand al centro di tutto. Creiamo un'identità visiva
+          memorabile per distinguerti dalla concorrenza.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div>PLAN</div>
+<div>PROOF</div> -->
   <!--  <div class="fullpage-container overflow-x-clip">
     <div class="fullpage section">
       <div class="overlay">
@@ -6,7 +53,7 @@
           Inizia tutto con un'idea...
         </p>
         <p
-          class="text-style-3 lg:w-[33vw] text-pretty backdrop-blur-md p-4 rounded-xl"
+        class="text-style-3 lg:w-[33vw] text-pretty backdrop-blur-md p-4 rounded-xl"
         >
           Partiamo dalla tua visione per progettare siti web e app su misura per
           le tue esigenze specifiche

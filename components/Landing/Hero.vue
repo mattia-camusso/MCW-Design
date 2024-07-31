@@ -13,7 +13,7 @@ import MobileAnimation from "./MobileAnimation.vue";
       </div>
       <h1 class="hero-subtext text-center md:text-left text-balance mb-4">
         MCW Design è una Web Agency in Val d'Aosta. Ci occupiamo di Sviluppo e
-        Realizzazione Siti Web e Internet ad Aosta, in Canavese e tutta Italia.
+        Realizzazione Siti Web e Internet ad Aosta, Canavese e tutta Italia.
       </h1>
     </div>
     <div class="hero-side collapse w-0 h-0 md:w-full md:h-full md:visible">

@@ -22,7 +22,7 @@
       </div>
       <div class="flex flex-col gap-8 justify-center">
         <div class="flex items-baseline gap-16" v-for="contact in contacts">
-          <h4 class="text-color-5">{{ contact.name }}</h4>
+          <h4 class="text-color-5 font-black text-lg">{{ contact.name }}</h4>
           <a
             :href="contact.link"
             target="_blank"
