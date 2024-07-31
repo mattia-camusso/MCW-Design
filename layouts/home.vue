@@ -34,13 +34,15 @@ useHead({
 @keyframes stickyNav {
   100% {
     top: 0;
-    background-color: var(--color-overlay);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 }
 @-webkit-keyframes stickyNav {
   100% {
     top: 0;
-    background-color: var(--color-overlay);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 }
 </style>
