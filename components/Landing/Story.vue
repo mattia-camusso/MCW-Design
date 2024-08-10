@@ -4,7 +4,7 @@
     <div class="flex justify-center md:pb-[15vh] pb-[10vh]">
       
       <h2 class="text-style-bigger text-center text-pretty md:w-1/2 font-semibold">
-        Inizia con noi il Tuo Viaggio Verso il Futuro
+        Inizia con Noi il Tuo Viaggio Verso il Futuro
       </h2>
     </div>
     <div class>
@@ -31,7 +31,7 @@
       </di justify-betweenv>
       <div class="flex flex-col md:gap-6 gap-2 md:w-1/4">
         <h3 class="text-style-1 font-bold text-color-5">
-          Branding e Logo Design
+          Branding e Loghi
         </h3>
         <p class="text-style-2 md:font-semibold font-bold">
           Un'identità visiva forte è essenziale per il successo.
