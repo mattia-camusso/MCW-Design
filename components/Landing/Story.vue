@@ -4,7 +4,7 @@
     <div class="flex justify-center md:pb-[15vh] pb-[10vh]">
       
       <h2 class="text-style-bigger text-center text-pretty md:w-1/2 font-semibold">
-        Inizia con Noi il Tuo Viaggio Verso il Futuro
+        Inizia con Noi il Tuo Viaggio Verso il Futuro.
       </h2>
     </div>
     <div class>
